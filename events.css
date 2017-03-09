@@ -1,7 +1,51 @@
 #output-target {
-	background-color: orange;
+	background-color: #7fffd4;
 	color: blue;
 	padding: 20px;
 	font-size: 1.5em;
+	border: 2px dotted #8a2be2;
+	margin: 20px 0; 
 }
+
+.textBlue {
+	color: blue;
+	margin-bottom: 20px;
+}
+
+.textLarge {
+	font-size: 2em;
+}
+
+.addBorder {
+	border: 3px dotted #a52a2a;
+}
+
+.addRounding {
+	border-radius: 25px;
+}
+
+/*The first section's text should be bold.*/
+section:first-child { 
+    font-weight: bold;
+}
+
+/*The last section's text should be bold and italicized.*/
+section:last-child { 
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Make the buttons stop appearing next to each other as inline elements.
+ Change them into block elements.
+*/
+button {
+	display: block;
+	margin: 5px;
+}
+
+
+
+
+
+
 
